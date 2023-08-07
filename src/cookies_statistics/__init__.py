@@ -43,7 +43,7 @@ def upper_triangularize(X):
 def lsq_householder(Z, y):
     """ Solve the least squares problem using Householder transformations.
         This function returns a tuple of the coefficient vector
-        and the sum of squared errors.
+        and the square root of sum of squared errors.
 
         :param np.array Z: A Nxm data matrix (N >= m).
         :param np.array y: A vector of length N.

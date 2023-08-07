@@ -36,7 +36,7 @@ git clone https://github.com/CookieBox26/cookies_statistics.git
 cd cookies_statistics
 # make some changes to the code
 pip install -e '.[dev]'  #  install the package in editable mode
-python -m unittest discover tests -v  # test
+pytest  # test
 ```
 If an error occurs, you can fix the code and rerun the tests without having to reinstall the package.
 
