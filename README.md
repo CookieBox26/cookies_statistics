@@ -2,8 +2,7 @@
 
 Utility functions for statistical analyses.
 
-- [Documentation (released)](https://cookies-statistics.readthedocs.io/en/stable/)
-- [Documentation (main branch HEAD)](https://cookies-statistics.readthedocs.io/en/latest/)
+- [Documentation](https://cookiebox26.github.io/cookies_statistics/html/index.html)
 
 ---
 
