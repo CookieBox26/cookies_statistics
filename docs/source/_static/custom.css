@@ -26,3 +26,7 @@ div.code-block-caption {
     border-top: 1px solid #bbd8a5; font-weight: bold;
     background-color: #ddf2bf; color: #7f2750; }
 th, dl.field-list > dt { background-color: transparent; }
+@media screen and (max-width: 640px) {
+    div.sphinxsidebarwrapper { display:none }
+    div.bodywrapper { margin: 0; }
+}

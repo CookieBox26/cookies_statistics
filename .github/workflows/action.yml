@@ -11,7 +11,9 @@ jobs:
         pip install sphinx
     - name: Sphinx build
       run: |
+        pip install -e .
         cd docs
+        make clean
         make html
         cd ..
     - name: Deploy
